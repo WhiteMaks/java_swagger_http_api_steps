@@ -1,0 +1,3 @@
+rootProject.name = 'java_swagger_http_api_steps'
+
+include 'base-http-api'
