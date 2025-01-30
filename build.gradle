@@ -7,8 +7,9 @@ version = '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
-    implementation project("base-http-api")
+    implementation 'com.github.WhiteMaks:java_base_http_api:1.0.0'
 }
